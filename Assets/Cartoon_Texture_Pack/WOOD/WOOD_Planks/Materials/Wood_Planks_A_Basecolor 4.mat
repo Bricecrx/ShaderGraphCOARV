@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wood_Planks_A_Basecolor
-  m_Shader: {fileID: -6465566751694194690, guid: a90d697bc776e0c449ee41c3a1b72325, type: 3}
+  m_Name: Wood_Planks_A_Basecolor 4
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -36,16 +36,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: c530aaa0ad1f325419ee82357341d72d, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: afcb53d90181c6a4282a55c176236533, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MaskMap:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -59,20 +55,11 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_48b25ef67d0a44179eb2fb3ec121cd4c_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 5c38e2edb8ae412468d3186b2e38caf1, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BUILTIN_QueueControl: 0
-    - _BUILTIN_QueueOffset: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DistortionIntensity: 0.2
-    - _DistortionScale: 25
-    - _DistortionSpeed: 0.005
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -89,19 +76,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Panning: {r: 0.04, g: 0.01, b: 0, a: 0}
-    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &2299883190513058000
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 0
